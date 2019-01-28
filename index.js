@@ -14,7 +14,7 @@ function forkRepo() {
   const repo = 'learn-co-curriculum/javascript-fetch-lab'
   //use fetch to fork it!
   const token = '178e163429470240f30d4dda555fc4fe0b4f9b8a';
- 
+
 fetch('https://api.github.com/MirayT/repos', {
   headers: {
     Authorization: `token ${token}`
